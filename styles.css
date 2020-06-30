@@ -11,8 +11,9 @@
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-dark: #1e201f;
+  --clr-accent: #87b37a;
+  --clr-fill: #77867f;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -307,7 +308,7 @@ header {
 }
 
 .service {
-  max-width: 500;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -373,7 +374,7 @@ header {
 /* My Work  */
 
 .my-work {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-fill);
   color: var(--clr-light);
   text-align: center;
 }
@@ -406,7 +407,7 @@ header {
 /* footer */
 
 .footer {
-  background: #111;
+  background: var(--clr-dark);
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
@@ -456,7 +457,8 @@ header {
   margin: 0 auto;
 }
 
-.portfolio-item-individual p {
+.portfolio-item-individual p,
+h3 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
