@@ -282,7 +282,7 @@ header {
   }
 }
 
-/* My Services */
+/* Skills */
 
 .my-services {
   background-color: var(--clr-dark);
@@ -290,6 +290,7 @@ header {
   background-size: cover; */
   color: var(--clr-light);
   text-align: center;
+  padding: 2.5em;
 }
 
 .section__title--services {
@@ -310,11 +311,9 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+  margin-bottom: 2em;
 }
 
-.services {
-  margin-bottom: 4em;
-}
 @media (min-width: 800px) {
   .services {
     display: flex;
@@ -322,6 +321,7 @@ header {
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
   }
 
   .service + .service {
@@ -338,6 +338,7 @@ header {
 
 .about-me__img {
   box-shadow: var(--bs);
+  max-width: 240px;
 }
 
 @media (min-width: 600px) {
@@ -368,13 +369,14 @@ header {
     grid-area: img;
     position: relative;
     z-index: 2;
+    max-width: 270px;
   }
 }
 
 /* My Work  */
 
 .my-work {
-  background-color: var(--clr-fill);
+  background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
 }
@@ -407,7 +409,7 @@ header {
 /* footer */
 
 .footer {
-  background: var(--clr-dark);
+  background: #111;
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
@@ -449,7 +451,7 @@ header {
   padding: 0.5em;
 }
 
-/* Individual protfolio item styles  */
+/* Individual portfolio item styles  */
 
 .portfolio-item-individual {
   padding: 0 2em 2em;
@@ -458,8 +460,23 @@ header {
 }
 
 .portfolio-item-individual p,
-h3 {
+.portfolio-item-individual div,
+.portfolio-item-individual h3 {
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual a {
+  text-decoration: none;
+  color: #111;
+}
+
+.portfolio-line {
+  margin-bottom: 36px;
+  height: 1px;
+  background-color: #111;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
