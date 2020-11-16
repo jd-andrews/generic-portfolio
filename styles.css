@@ -5,7 +5,7 @@
 }
 
 :root {
-  --ff-primary: "Lato", sans-serif;
+  --ff-primary: "Cabin", "Lato", sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
