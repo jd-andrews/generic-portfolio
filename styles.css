@@ -77,6 +77,7 @@ strong {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  margin: 10px;
 }
 
 .btn:hover {
@@ -338,6 +339,11 @@ header {
 
 .about-me__img {
   box-shadow: var(--bs);
+}
+
+.about-me_btn {
+  text-align: center;
+  padding: 20px 0;
 }
 
 @media (min-width: 600px) {
